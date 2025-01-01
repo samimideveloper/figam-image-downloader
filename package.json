@@ -1,6 +1,15 @@
 {
+  "name": "figma-image-downloader",
+  "version": "1.0.0",
+  "description": "A package to download Figma images (SVG & PNG)",
+  "main": "download_figma_images.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "fs": "^0.0.1-security",
     "node-fetch": "^2.7.0"
-  }
+  },
+  "author": "Mehdi Samimi",
+  "license": "MIT"
 }
