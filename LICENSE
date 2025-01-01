@@ -1,31 +1,23 @@
-
-### **What this README.md Covers:**
-1. **Project Title & Description**: A brief introduction to the package and its functionality.
-2. **Installation**: Step-by-step instructions for installing the package via npm.
-3. **Usage**: A code snippet demonstrating how to use the package with the necessary parameters.
-4. **License**: Indicates that the package is licensed under the MIT License and includes a reference to the `LICENSE` file.
-
-### **Steps to Add the README.md**
-
-1. **Create the `README.md` File**:
-   - In the root directory of your project, create a file named `README.md`.
-   - Copy the above content into this file.
-
-2. **Commit the README.md to GitHub**:
-   - If you're using GitHub for version control, make sure to commit the `README.md` file and push it to your repository:
-     ```bash
-     git add README.md
-     git commit -m "Add README.md for package documentation"
-     git push origin master
-     ```
-
 ---
 
-### **Publishing to npm**
+### Key Sections Added:
 
-Once you have added the `README.md` file, follow the steps below to publish your package to npm:
+1. **Installation**: Instructions on how to install the package via npm.
+2. **Usage**:
+   - Example code that shows how to use the `downloadFigmaImages` function.
+   - Describes the required parameters: `FIGMA_API_TOKEN` and `FILE_ID`.
+   - Details about the output (downloaded images).
+3. **Steps to Use**:
+   - Detailed instructions on how to set up and use the package, including generating the Figma API token, finding the Figma File ID, and running the provided example.
+4. **Notes**:
+   - A note about Figma API rate limits and image quality considerations.
 
-1. **Login to npm**:
-   If you don't have an npm account, create one at [npmjs.com](https://www.npmjs.com/). Then, login to npm via your terminal:
+### Next Steps:
+
+1. **Add the Instructions**: Copy and paste the updated `README.md` content into your project's `README.md` file.
+2. **Commit the Changes**: After updating the file, make sure to commit and push it to your GitHub repository:
    ```bash
-   npm login
+   git add README.md
+   git commit -m "Added usage instructions and example to README"
+   git push origin master
+   ```
