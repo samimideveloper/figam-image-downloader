@@ -1,13 +1,11 @@
 # Figma Image Downloader
 
-This package allows you to download images (SVG and PNG) from Figma using the Figma API.
+This package allows you to download images (SVG and PNG) from Figma using the Figma API.**This package is designed to work in a Node.js environment only**.
 
 ## Installation
 
 ```bash
 npm install figma-image-downloader
-
-
 
 ```
 
